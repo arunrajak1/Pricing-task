@@ -291,11 +291,11 @@
               comments: document.getElementById("comments").value,
             };
             console.log(formData)
-            fetch("http://localhost:8080/submit-form", {
+            fetch("https://forms.maakeetoo.com/formsdata/732/submit-form", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "MCB7PTOEQUA6JKZW6L2CUSB84" 
+          "Authorization": "X3DAWVYRUS3DP1DUBSXPHI8FR" 
         },
         body: JSON.stringify(formData),
       })
